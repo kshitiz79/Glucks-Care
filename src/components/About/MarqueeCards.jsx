@@ -12,7 +12,7 @@ const cardData = [
   {
     title: 'Among',
     highlight: 'Top 13 largest pharma companies in India',
-    icon: <FaStar className="text-4xl text-white" />,
+    icon: <FaStar className="text-4xl text-white " />,
   },
   {
     title: 'Robust workforce of over',
@@ -48,7 +48,7 @@ export default function MarqueeCards() {
               key={index}
               className="min-w-[300px] bg-white rounded-lg  shadow-lg p-6 text-center flex flex-col items-center"
             >
-              <div className="bg-red-500 w-16 h-16 flex items-center justify-center rounded-full mb-4">
+              <div className="bg-pink-700 w-16 h-16 flex items-center justify-center rounded-full mb-4">
                 {item.icon}
               </div>
               <p className="text-gray-600">{item.title}</p>
